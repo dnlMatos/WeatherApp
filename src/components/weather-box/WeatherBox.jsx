@@ -1,10 +1,10 @@
 import React from "react";
-import './style.css'
+import "./style.css";
 
-export default function WeatherBox() {
+export default function WeatherBox({ data }) {
   return (
     <div className="weather-box">
-      <div className="temp">15º C</div>
+      <div className="temp">{data.main ? Math.trunc(data.main.temp) + 'º C' : ""}</div>
     </div>
   );
 }

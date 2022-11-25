@@ -3,7 +3,7 @@ import "./style.css";
 import moment from "moment";
 import "moment/locale/pt-br";
 
-export default function Location() {
+export default function Location({ data }) {
   //   const dayName = new Array(
   //     "Domingo",
   //     "Segunda",
@@ -31,7 +31,13 @@ export default function Location() {
 
   return (
     <div className="location-box">
-      <div className="location">Brasília, BR</div>
+      <div className="location">
+        {data != null ? (
+          <>{data.name ? data.name + ", " + data.sys?.country : "Buscando..."}</>
+        ) : (
+          "Cidade não encontrada"
+        )}
+      </div>
       <div className="date">
         {moment(new Date()).locale("pt-br").format("LLLL")}
       </div>
