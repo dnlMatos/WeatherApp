@@ -29,7 +29,7 @@ export default function SearchBox() {
               className="search-bar"
               placeholder="Buscar..."
             />
-            <button onClick={() => handleInput(city)}>Enviar</button>
+            <button className="btn-send" onClick={() => handleInput(city)}>Enviar</button>
           </div>
         </>
       ) : (
