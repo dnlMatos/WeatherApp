@@ -6,6 +6,7 @@
   }
   
   .search-box .search-bar {
+    font-family: "Montserrat", sans-serif;
     width: 50%;
     padding: 15px;
   
@@ -31,6 +32,8 @@
   }
 
   .btn-send{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
     color: #313131;
     font-size: 20px;
@@ -42,5 +45,6 @@
   }
 
   .btn-send:hover{
-    background-color: rgb(184, 223, 184);
+    background-color: #839B6A;
+    color: aliceblue;
   }
