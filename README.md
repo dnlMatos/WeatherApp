@@ -1,18 +1,22 @@
-
-<img class="emoji" src="https://images.app.goo.gl/HMwAPznikdaDgMzB6" width="200" height="100" emoji-code="Weather" alt="Weather" />
-
+<div align="center"> 
+<img class="emoji" src="https://img.freepik.com/premium-vector/outline-weather-icon-set-transparent-forecast-icons-outline-weather-pictogram-collection-cloud-sun-rain-wind-symbol_570901-29.jpg?w=2000" width="150" height="80" emoji-code="Weather" alt="Weather" />
+</div>
 
 <div align="center">   
   ### Weather App ### 
 </div>
 
-Projeto consiste em apresentar os resultados de loterias
+</br>
+
+Projeto consiste em apresentar os resultados climáticos de uma cidade
+
+</br>
 
 ### ✅ Funcionalidades
 
 - [x] Visualizar data, hora, temperatura e tempo de uma cidade.
 
-
+</br>
 
 ### 🔧 Tecnologias
 
@@ -29,6 +33,7 @@ Projeto consiste em apresentar os resultados de loterias
 
 ### Layout 
 
-https://user-images.githubusercontent.com/60492862/183542446-b8387a9a-e2a0-47e6-9c68-a36455651d69.mp4
+https://user-images.githubusercontent.com/60492862/213035009-34300f65-a20c-4f75-8ad6-551b92f6bc31.mp4
+
 
 por Danilo Matos
